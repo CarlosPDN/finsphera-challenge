@@ -1,0 +1,21 @@
+.logColor{
+    background-color: white;
+    width:37vw;
+    height:auto;
+    margin:auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.LogArea{
+    text-align: center;
+    width:25vw;
+    margin:10vh auto 10vh auto;
+}
+.lanes{
+    border: 0.2px solid rgb(179, 175, 175);
+    border-radius: 10px;
+    width: 18vw; 
+    height: 1px;
+    margin:5vh auto 1vh auto;
+}
