@@ -2,8 +2,8 @@
     background-color: white;
     width:37vw;
     height:auto;
-    padding-top:10vh;
-    padding-bottom:10vh;
+    padding-top:5vh;
+    padding-bottom:5vh;
     margin:auto;
     border: 1px solid gray;
     border-radius: 10px;
@@ -19,8 +19,8 @@
     border-radius: 10px;
     width: 15vw; 
     height: 1px;
-    margin:5vh auto 1vh auto;
 }
+
 .uses{
     margin-top:2vh;
 }
