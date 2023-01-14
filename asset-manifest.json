@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/finsphera-challenge/static/css/main.af90c780.css",
+    "main.js": "/finsphera-challenge/static/js/main.d53f9bcf.js",
+    "static/js/787.c24cf73b.chunk.js": "/finsphera-challenge/static/js/787.c24cf73b.chunk.js",
+    "index.html": "/finsphera-challenge/index.html",
+    "main.af90c780.css.map": "/finsphera-challenge/static/css/main.af90c780.css.map",
+    "main.d53f9bcf.js.map": "/finsphera-challenge/static/js/main.d53f9bcf.js.map",
+    "787.c24cf73b.chunk.js.map": "/finsphera-challenge/static/js/787.c24cf73b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af90c780.css",
+    "static/js/main.d53f9bcf.js"
+  ]
+}
