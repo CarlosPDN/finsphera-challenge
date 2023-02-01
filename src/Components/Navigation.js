@@ -10,7 +10,7 @@ export default function Navigation() {
 return (
 	<Navbar collapseOnSelect expand="lg" variant="dark" bg="dark">
 		<NavbarBrand as={NavLink} to="/">
-			Task Manager
+			Gestor de Tareas
 		</NavbarBrand>
 		<NavbarToggle aria-controls="responsive-navbar-nav"/>
 		<NavbarCollapse id="responsive-navbar-nav">

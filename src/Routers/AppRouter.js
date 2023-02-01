@@ -10,19 +10,20 @@ import Project from '../Pages/Project/Project'
 import Projects from '../Pages/Projects/Projects'
 import Registro from '../Pages/Registro/Registo'
 import PrivateRoute from './PrivateRoute'
+import PublicRoute from './PublicRoute'
 
 export default function AppRouter() {
   return (
     <Router>
       <Layout>
         <Routes>
-              <Route exact path="/" element={<HomePage />}/>
-              <Route exact path="/login" element={<Login />}/>
-              <Route exact path="/register" element={<Registro />}/>
+              <Route exact path="/" element={<PublicRoute> <HomePage /> </PublicRoute>}/>
+              <Route exact path="/login" element={<PublicRoute> <Login /> </PublicRoute>}/>
+              <Route exact path="/register" element={<PublicRoute> <Registro /> </PublicRoute>}/>
               <Route exact path="/account" element={<PrivateRoute> <Account /> </PrivateRoute>}/>
               <Route exact path="/projects" element={<PrivateRoute> <Projects /> </PrivateRoute>}/>
               <Route exact path="/project/:projectId" element={<PrivateRoute> <Project /> </PrivateRoute>}/>
-              <Route exact path="/admin/users" element={<PrivateRoute> <Users /> </PrivateRoute>}/>
+              <Route exact path="/admin/users" element={<PrivateRoute hasRole="admin" > <Users /> </PrivateRoute>}/>
               
               <Route exact path="*" element={<NotFoundPage />}/>
           </Routes>
