@@ -76,7 +76,7 @@ return (
                 <label className="text-muted">
                     ¿Ya tienes cuenta con nosotros?   
                 </label>
-                <Button onClick={() => props.onFormSwitch('login')} className='w-75 mt-2' variant="success">
+                <Button href='http://localhost:3000/login' className='w-75 mt-2' variant="success">
                     Iniciar sesión
                 </Button>
             </div>
